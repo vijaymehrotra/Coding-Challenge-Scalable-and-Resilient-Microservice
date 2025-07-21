@@ -2,6 +2,15 @@
 
 This project demonstrates a scalable and resilient microservice-based application using Node.js, Express, Docker, and NGINX.
 
+## 📝 Introduction
+
+This application is a microservices-based system that simulates a Product Catalog and Review platform. It consists of two core services:
+
+- **Product Service**: Serves product information and integrates reviews from the Review Service.
+- **Review Service**: Provides customer reviews for a given product.
+
+The system is designed with scalability and resilience in mind using Docker, NGINX, and fault-handling strategies like retry with fallback.
+
 ## 🔗 GitHub Repository
 
 [GitHub Link](https://github.com/vijaymehrotra/Coding-Challenge-Scalable-and-Resilient-Microservice)
