@@ -79,7 +79,9 @@ Review API: http://localhost:8081/reviews/:productId
    
 ```
    
-docker stop your-container-name_or_id
+docker-compose down -v
+
+docker-compose up --build
 
 ```
    
